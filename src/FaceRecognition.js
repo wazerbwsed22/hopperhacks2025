@@ -3,6 +3,7 @@ import Webcam from "react-webcam";
 import axios from "axios";
 
 const FaceRecognition = () => {
+    console.log("COMESOOMODE")
     const webcamRef = useRef(null);
     const [recognizedPerson, setRecognizedPerson] = useState("No one detected");
 

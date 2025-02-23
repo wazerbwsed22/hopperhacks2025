@@ -1,0 +1,22 @@
+.family-box {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #D8BEE5;
+    
+    /* 3D Effect */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  
+  /* Hover Effect: Pressed Look */
+  .family-box:hover {
+    transform: translateY(3px); /* Moves down slightly */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow for "pressed" effect */
+  }
+  

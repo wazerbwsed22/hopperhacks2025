@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Ensure content doesn't overflow horizontally */
+.user-container {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive layout */
+  gap: 10px;
+  justify-content: center;
+  max-width: 900px; /* Adjust based on preference */
+}
+
+/* Ensures all images are the same size */
+.gallery {
+  width: 100%; /* Make sure it fills the grid column */
+  height: 240px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Crop images to fit the frame without distortion */
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a soft shadow for a polished look */
+}
