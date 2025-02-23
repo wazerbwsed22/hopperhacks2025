@@ -4,6 +4,7 @@ import pickle
 import os
 
 folderPath = "images"
+
 pathList = os.listdir(folderPath)
 
 imgList = []
