@@ -4,10 +4,10 @@ import member1Photo1 from "./profile_memories/utsha/pic1.jpg";
 // import userPhoto from "./profile_memories/members/user.jpg"; 
 
 const members = [
-  { id: 1, name: "Jahnavi", src: member1Photo1, link: "/member1" },
+  { id: 1, name: "Jahnavi", src: member1Photo1, link: "/102" },
 //   { id: 2, name: "Member 2", src: member2Photo, link: "/member2" },
 //   { id: 3, name: "User", src: userPhoto, link: "/user" },
-];
+]
 
 function FamilyGallery() {
   return (

@@ -6,13 +6,13 @@ const Family = () => {
   return (
     <div>
       <div style={{ display: 'flex', gap: '20px', padding: '20px' }}>
-        <Link to="/user" className="family-box">
+        <Link to="/100" className="family-box">
           <h2>Utsha : Me</h2>
         </Link>
-        <Link to="/member1" className="family-box">
+        <Link to="/102" className="family-box">
           <h2>Jahnavi</h2>
         </Link>
-        <Link to="/member2" className="family-box">
+        <Link to="/101" className="family-box">
           <h2>Aadith</h2>
         </Link>
       </div>

@@ -10,6 +10,7 @@ import photo7 from './profile_memories/utsha/pic7.jpg';
 import photo8 from './profile_memories/utsha/pic8.jpg';
 import photo9 from './profile_memories/utsha/pic9.jpg';
 import photo10 from './profile_memories/utsha/pic10.jpg';
+import photo11 from './profile_memories/utsha/pic11.jpg';
 
 
 import './index.css';
@@ -26,6 +27,8 @@ export const photos = [
   { id: 8, src: photo8 },
   { id: 9, src: photo9 },
   { id: 10, src: photo10 },
+  { id: 11, src: photo11 },
+
 
 
 

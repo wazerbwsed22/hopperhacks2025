@@ -12,6 +12,43 @@ code {
     monospace;
 }
 
+#webcam-button {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #D8BEE5;
+  transition: background-color 0.3s ease;
+}
+
+#webcam-button:hover {
+  background-color: #C0A2D1;
+}
+
+#webcam-heading {
+  width: 640px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  background: #b1b1b1;
+  color: #fff;
+  border: 2px solid black;
+}
+
+#webcam_paragraph {
+
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-left: 2px solid black;
+  margin-top: 0;
+  border-right: 2px solid black;
+  margin-bottom: 0;
+  width: 640px;
+  text-indent: 100px;
+
+}
+
+
 /* Ensure content doesn't overflow horizontally */
 .user-container {
   width: 100vw;
