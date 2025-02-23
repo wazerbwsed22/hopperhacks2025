@@ -6,18 +6,19 @@ const Family = () => {
     <div>
       <div style={{ display: 'flex', gap: '20px', padding: '20px' }}>
         {/* Block for Family Member 1 */}
-        <Link to="/me" style={blockStyle}>
-          <h2>Me</h2>
+        <Link to="/user" style={blockStyle}>
+          <h2>Utsha : Me</h2>
         </Link>
 
         {/* Block for Family Member 1 */}
         <Link to="/member1" style={blockStyle}>
-          <h2>Family Member 1</h2>
+          <h2>Jahnavi</h2>
+          
         </Link>
 
         {/* Block for Family Member 2 */}
         <Link to="/member2" style={blockStyle}>
-          <h2>Family Member 2</h2>
+          <h2>Aadith</h2>
         </Link>
       </div>
     </div>
